@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\git\\OpenAIVoiceChat\\OpenAIVoiceChat\\OpenAIVoiceChat.csproj": {}
+  },
+  "projects": {
+    "C:\\git\\OpenAIVoiceChat\\OpenAIVoiceChat\\OpenAIVoiceChat.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\git\\OpenAIVoiceChat\\OpenAIVoiceChat\\OpenAIVoiceChat.csproj",
+        "projectName": "OpenAIVoiceChat",
+        "projectPath": "C:\\git\\OpenAIVoiceChat\\OpenAIVoiceChat\\OpenAIVoiceChat.csproj",
+        "packagesPath": "C:\\Users\\josla\\.nuget\\packages\\",
+        "outputPath": "C:\\git\\OpenAIVoiceChat\\OpenAIVoiceChat\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\josla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/swisslife/_packaging/f2c-main-core/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Azure.AI.OpenAI": {
+              "target": "Package",
+              "version": "[1.0.0-beta.5, )"
+            },
+            "Microsoft.CognitiveServices.Speech": {
+              "target": "Package",
+              "version": "[1.29.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
